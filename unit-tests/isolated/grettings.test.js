@@ -1,7 +1,7 @@
-const grettings = require('grettings');
+const grettings = require('./grettings');
 
 describe('grettings', () => {
     it('grett the world', () => {
-        expect(grettings.grett).toBe('Hello Sir');
+        expect(grettings.grett()).toBe('Hello Sir');
     });
 });

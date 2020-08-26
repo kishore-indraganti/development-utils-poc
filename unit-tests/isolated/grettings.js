@@ -1,1 +1,1 @@
-exports.grett = () => 'Hello Sir'
+exports.grett = () => 'Hello Sir!'
