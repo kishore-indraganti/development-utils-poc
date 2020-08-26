@@ -5,9 +5,15 @@
   "license": "MIT",
   "devDependencies": {
     "@types/jest": "^26.0.10",
+    "husky": "^4.2.5",
     "jest": "^26.4.2"
   },
   "scripts": {
     "test": "jest"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn test"
+    }
   }
 }

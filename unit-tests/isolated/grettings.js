@@ -1,0 +1,1 @@
+exports.grett = () => 'Hello Sir'
