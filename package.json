@@ -5,8 +5,10 @@
   "license": "MIT",
   "devDependencies": {
     "@types/jest": "^26.0.10",
+    "eslint": "^7.7.0",
     "husky": "^4.2.5",
-    "jest": "^26.4.2"
+    "jest": "^26.4.2",
+    "lint-staged": "^10.2.13"
   },
   "scripts": {
     "test": "jest"
@@ -15,5 +17,8 @@
     "hooks": {
       "pre-commit": "yarn test --changedSince=origin/master"
     }
+  },
+  "lint-staged": {
+    "*.js": ["eslint"]
   }
 }
